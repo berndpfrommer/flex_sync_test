@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>flex_sync_test</name>
+  <version>1.0.0</version>
+  <description>package for testing flex_sync</description>
+
+  <maintainer email="bernd.pfrommer@gmail.com">Bernd Pfrommer</maintainer>
+  <license>Apache</license>
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>roscpp</depend>
+  <depend>flex_sync</depend>
+  <depend>message_filters</depend>
+  <depend>rosbag</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+</package>
