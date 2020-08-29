@@ -14,3 +14,7 @@ include_directories(${catkin_INCLUDE_DIRS})
 add_executable(sync_test src/sync_test.cpp)
 add_dependencies(sync_test ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 target_link_libraries(sync_test ${catkin_LIBRARIES})
+
+add_executable(live_sync_test src/live_sync_test.cpp)
+add_dependencies(live_sync_test ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(live_sync_test ${catkin_LIBRARIES})
